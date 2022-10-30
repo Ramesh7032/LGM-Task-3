@@ -1,0 +1,51 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.main{
+    width: 450px;
+    margin-left: 35%
+}
+div.main {
+    justify-content:flex-start ;
+}
+div.main form{
+    background: rgb(33, 165, 231);
+    padding: 14px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+div.main label{
+    font-size: 20px;
+}
+div.main form input{
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+div.main table tr td input{
+    padding: 5px 36px;
+    transition: transform(0.4s);
+    transition-duration: 500ms;
+
+}
+div.main table tr td input:hover{
+    transform: scale(1.05);
+}
+
+.btn{
+    color: black;
+    background-color:white
+    ;
+    cursor: pointer;
+    transition: transform(0.4s);
+    transition-duration: 500ms;
+}
+.btn:hover{
+    color: white;
+    background-color: black;
+    transform: scale(1.09);
+
+}
